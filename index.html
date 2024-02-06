@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anupama's Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/27a9a336a4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Portfolio">My Achievements</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+
+
+
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <span>Anupama</span></h1>
+                <!-- <p>a software developer from India</p> -->
+            </div>
+        </div>
+    </div>
+    <!-- -----------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>With a Bachelor of Vocation in Software Development and a Post Graduate Diploma in Data Analysis,
+                        I possess a foundation in both technical and analytical aspects of the field. I am seeking a
+                        role where I can apply my knowledge and expertise to drive innovation, solve problems, and
+                        deliver impactful solutions. My goal is to continuously learn and grow in a dynamic environment
+                        while making a significant contribution to the success of the organization.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Programming Skills</p>
+                        <p class="tab-links" onclick="opentab('skills2')">Soft Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                            <li>Java</li>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills2">
+                        <ul>
+                            <li>Ability to work in a team</li>
+                            <li>Adaptability </li>
+                            <li>Fast Learner </li>
+                            <li>Accountability</li>
+                            <li> Time Management </li>
+                            <li>Active Listening</li>
+                            <li>Problem-solving </li>
+                            <li>Team leadership</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Masters of Computer Applications</span><br>CDAC | GGSIPU<br>Average
+                                Percentage-75.9%</li>
+                            <li><span>Post Graduate Diploma in Data Analytics</span><br> GGSIPU Main Campus<br>Percentage- 88.8%
+                            </li>
+                            <li><span>Bachelor of Vocation in Software Development</span><br>Kasturba Institute of
+                                Technology | GGSIPU<br>Percentage- 94.1%</li>
+                            <li><span>12th Science from ISC Board</span><br>Christu Jyothi Convent Sr. Sec.
+                                School<br>Percentage- 74.25%</li>
+                            <li><span>10th from ICSE Board</span><br>Christu Jyothi Convent Sr. Sec.
+                                School<br>Percentage- 82.2% </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My achievements</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work.png">
+                    <div class="layer">
+                        <h3>1st <i class="fa-solid fa-award"></i> Position</h3>
+                        <p>in Website Development at Colossus Fest!</p>
+                        <a href="https://drive.google.com/file/d/1LjHVKBBjKuFSfAM_CK8mergLY6I5jQm7/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work1.png">
+                    <div class="layer">
+                        <h3>3rd <i class="fa-solid fa-award"></i> Position</h3>
+                        <p>in Graphic Designing at Colossus Fest!</p>
+                        <a href="https://drive.google.com/file/d/1paNhHAmwkouDBq_n_p4a5YsHTe1LJj4i/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png">
+                    <div class="layer">
+                        <h3>1st <i class="fa-solid fa-award"></i> Position</h3>
+                        <p>in Photography at Colossus Fest!</p>
+                        <a href="https://drive.google.com/file/d/1OMaqY0TRl5DiWqTuhZOIGIphbF2_K8y_/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png">
+                    <div class="layer">
+                        <h3>2nd <i class="fa-solid fa-award"></i> Position</h3>
+                        <p>in Mandala at Colossus Fest!</p>
+                        <a href="https://drive.google.com/file/d/1o_4zQVW0XWWQ33ys9qiC7zu98mSD5ock/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="certificates/HBU.png">
+                    <div class="layer">
+                        
+                        <p>I have been associated with the <b>ESRO(Environment and Social Research Organization)</b> as a dedicated volunteer.</p>
+                        <p>My contributions have been acknowledged with an appreciation certificate from Humboldt State University, California (USA).</p>
+                        <a href="https://drive.google.com/file/d/1ecnHBD45d9yUHS_azb0C3Ihncgr6aN7O/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="certificates/CM.png">
+                    <div class="layer">
+                        
+                        <p>Orientation Program on Computer Maintenance</p>
+                        <a href="https://drive.google.com/file/d/1id95IP7c3EFkVC0W4InPTfoHv61Icguf/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="certificates/OC.png">
+                    <div class="layer">
+                        
+                        <p>Orientation Program on CCNA. Cisco Certified Network Associate<b> is an information technology (IT) certification from Cisco Systems.</p>
+                        <a href="https://drive.google.com/file/d/1E6Ae8rLVVZ-sogjvSZYRGHxxXl6rY6IA/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+
+
+
+
+
+    <div>
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="projects-list">
+                    <div>
+                        <i class="fa-solid fa-utensils"></i>
+                        <h4 class="p">Food Recommendation website based on Calories</h4>
+                        <p>Dec 2023-till date</p><br>
+                        <p>This system is expected to recommend healthy food and delivery on the basis of calories.</p>
+                        <a href="https://github.com/Anupama-Rajput/Food_Recommendation">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-facebook"></i>
+                        <h4 class="p">Sentiment Analysis based on review classification</h4>
+                        <p>Jan 2021-May 2022</p><br>
+                        <p>During my post-graduation diploma, I was given a case study involving a restaurant that
+                            wanted to implement a binary classification model to classify customer reviews on their
+                            Facebook page as either positive or negative. The restaurant team would reach out to
+                            customers who gave negative feedback to resolve their issues or complaints, aiming to ensure
+                            they have a positive experience and consider revisiting the restaurant in the future. To
+                            solve this problem, I divided the labeled data into training and test data. The training
+                            data was fed into machine learning models such as Naive Bayes, KNN, and SVM. Using Naive
+                            Bayes, I predicted sentiments for my new review dataset.</p>
+                        <a href="https://github.com/Anupama-Rajput/Sentiment_Analysis_based_on_Review_Classification">Learn more</a>
+                    </div>
+
+
+                    <div>
+                        <i class="fa-solid fa-hand-holding-heart"></i>
+                        <h4 class="p">Heart Disease Analysis & Prediction</h4>
+                        <p>Sep 2021-Dec 2021</p><br>
+                        <p>A heart disease prediction system to predict whether the patient is likely to be diagnosed
+                            with a heart disease or not using the medical history of the patient.</p>
+                        <a href="https://github.com/Anupama-Rajput/Heart_Disease_Prediction" target="_blank">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-robot"></i>
+                        <h4 class="p">Personal Voice Assistant</h4>
+                        <p>Sep 2020-Jan 2021</p><br>
+                        <p>The project aims to develop a personal-assistant draws its inspiration from virtual assistant
+                            like Siri for iOS. It has been designed to provide a user-friendly interface for carrying
+                            out a variety of tasks. It assists the end-user with day-to-day activities like general
+                            human conversation, searching queries in google, edge, youtube, writing email with the help
+                            of single voice command, searching for videos, live weather condition, reminding the user
+                            about the scheduled events and tasks, etc. </p>
+                        <a href="https://drive.google.com/file/d/1rDb9tzyDp1N91qcsrt-dduEsEP-AVM_9/view?usp=sharing" target="_blank">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+        <!-- -------------Contact------------------- -->
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>anupama.newdelhi.india@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>6398040616</p>
+                        <div class="social-icons">
+                            <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+                            <a href="https://www.linkedin.com/in/anupama-india/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.behance.net/anupamasingh4?fbclid=PAAaac_lVtfQ7VEQklZu30AbyQj3OytNfBjqtkx3No1ahD7tw8hkEPGfXKQbc"
+                                target="_blank"><i class="fa-brands fa-square-behance"></i></a>
+                            <a href="https://github.com/Anupama-Rajput" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                        <!-- <a href="images/Final.pdf" download="images/Final.pdf"  class="button button1">Download CV</a> -->
+                        <a href="images/Anupama Resume.pdf" download="Anupama's_Resume.pdf" class="button button1">Download CV</a>
+
+                        <!-- <a href class="button button1">Download CV</a>
+                        <button class="button button1">Download CV</button> -->
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="button button1">Submit</button>
+                        </form>
+                        <span id="msg">Hi! Let me know if you have any query</span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Anupama. Made with <i class="fa-solid fa-heart"></i> by Anupama</p>
+
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwLP0xvcHaaT58a9XGpt8E4Tgcn-70NHmFcNaLzgkHha5blmT5G-lsGi4fJ9w50dR0/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        },5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+   
+</body>
+
+</html>
